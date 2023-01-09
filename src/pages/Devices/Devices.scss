@@ -1,0 +1,53 @@
+.devicesWrapper{
+
+    min-height: 68vh;
+
+    .devices-title-search{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 25px auto 15px;
+        width: 78%;
+        flex-wrap: wrap;
+    
+        h1{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+        }
+    
+        .search-block{
+            display: flex;
+            text-align: center;
+            border: 1px solid #f3f3f3;
+            border-radius: 10px;
+            padding: 0 15px;
+    
+            input{
+                outline: none;
+                border: 0;
+                padding: 13px;
+                display: flex;
+                font-size: 16px;
+            }
+        }
+    }
+    
+    .devices{
+        margin: auto;
+        width: 80%;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+}
+
+.emptyDevicesPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50%;
+    h1{
+        font-weight: 600;
+    }
+}

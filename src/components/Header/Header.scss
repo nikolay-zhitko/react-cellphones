@@ -1,0 +1,100 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #fbf8f8;
+    border-bottom: solid 1px #EAEAEA;
+    display: flex;
+    justify-content: space-between;
+    padding: 22 35;
+
+    .headerLeftSection{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        transition: transform 0.15s ease-in-out;
+        &:hover{
+            transform: translateY(-1px);
+        }
+    
+        img{
+            width: 45;
+            height: 45;
+        }
+    
+        div{
+            margin-left: 10;
+    
+            h3 {
+                color: black;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                text-transform: uppercase;
+            }
+    
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #9D9D9D;
+            }
+        }
+    }
+
+    .headerRightSection{
+        display: flex;
+        align-items: center;
+    
+        .favoriteIcon{
+            margin-right: 20;
+            height: 19;
+            cursor: pointer;
+
+            transition: transform 0.15s ease-in-out;
+            &:hover{
+                transform: translateY(-1px);
+            }
+        }
+    
+        div{
+            display: flex;
+            justify-content: center;
+            transition: transform 0.15s ease-in-out;
+            &:hover{
+                transform: translateY(-1px);
+            }
+    
+            .cartIcon{
+                margin-right: 6;
+            }
+        
+            span{
+                text-align: start;
+                min-width: 50px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 40px;
+                color: #5C5C5C;
+            }
+        }
+    }
+
+    .backButton{
+        width: 30;
+        margin-right: 10px;
+        cursor: pointer;
+
+        transition: transform 0.15s ease-in-out;
+        &:hover{
+            transform: translateY(-1px);
+        }
+    }
+    
+}
